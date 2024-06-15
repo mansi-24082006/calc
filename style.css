@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to right, #98AFC7, #D3D3D3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px 3px white;
+}
+
+.main {
+    width: 300px;
+    height: 700px;
+    background-color: black;
+    
+    margin-top: -25px;
+    border: 5px solid #36454F;
+    border-radius: 10px;
+    box-shadow: 10px 2px 15px black;
+}
+
+.main:hover {
+    background-color: #98AFC7;
+}
+
+.Num {
+    background-color: #D3D3D3;
+    border: 2px solid #98AFC7;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    cursor: poiner;
+}
+
+.Num:hover {
+    background-color: #000000;
+    color: whitesmoke;
+    border: 2px solid black;
+}
+
+.row {
+    margin: 5px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+button {
+    text-align: center;
+    width: 60px;
+    height: 80px;
+    border: 2px solid #98AFC7;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: #D3D3D3;
+    border: 2px solid #36454F;
+    color: black;
+}
+
+.row:hover {
+    background-color: #98AFC7;
+}
